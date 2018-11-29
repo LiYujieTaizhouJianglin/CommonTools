@@ -2,7 +2,6 @@ package com.toolslibrary.Initialization;
 
 import android.content.Context;
 
-import com.facebook.drawee.backends.pipeline.Fresco;
 import com.umeng.commonsdk.UMConfigure;
 import com.umeng.socialize.PlatformConfig;
 
@@ -16,9 +15,5 @@ public class LIInitialization {
         PlatformConfig.setWeixin(appid, AppSecret);
     }
 
-    //初始化Fresco
-    public static void initFresco(Context context){
-        Fresco.initialize(context);
-    }
 
 }

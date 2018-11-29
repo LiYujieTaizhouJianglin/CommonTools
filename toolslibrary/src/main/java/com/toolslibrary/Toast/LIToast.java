@@ -7,7 +7,7 @@ import android.widget.Toast;
 /**
  * 吐司工具类
  */
-public class LIToast {
+public class  LIToast {
 	/**
 	 * String类型吐司(短吐司)
 	 *
